@@ -1,0 +1,21 @@
+.{
+    .verbose = .{
+        .type = .flag,
+        .description = "Enable verbose output",
+    },
+    .l4_source_directory = .{
+        .type = .string,
+        .description = "Existing L4Re source directory",
+        .default = ".",
+    },
+    .l4_build_directory = .{
+        .type = .string,
+        .description = "Existing L4Re build directory",
+        .default = "./build",
+    },
+    .install_directory = .{
+        .type = .string,
+        .description = "Installation directory",
+        .default = "bin",
+    },
+}
